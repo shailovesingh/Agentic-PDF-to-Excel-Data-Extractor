@@ -157,13 +157,9 @@ Sample extracted JSON (conceptual):
 
 ```
 agentic-pdf-to-excel/
-├── app.py                 # Streamlit + LangGraph flow orchestration
-├── schemas.py             # Pydantic models for document types
-├── langgraph_flow.py      # LangGraph agent definitions & steps
-├── groq_client.py         # Groq client wrapper / prompt helpers
+├── app.py
 ├── requirements.txt
 ├── .env
-├── assets/
 └── README.md
 ```
 
