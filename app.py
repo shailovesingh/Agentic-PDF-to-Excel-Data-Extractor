@@ -36,7 +36,7 @@ class DocumentSummary(BaseModel):
     total_invoice_due: float = Field(description="The grand total amount due for the entire invoice, must be a float.")
     items: List[InvoiceItem] = Field(description="A list of all individual purchased items on the invoice.")
 
-class AgentState(TypedDict):
+class AgentState(TypedDict): # LAngGraph State
     """
     Represents the state of our multi-step agent workflow.
     """
