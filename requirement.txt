@@ -7,4 +7,5 @@ pypdf
 langchain-groq
 openpyxl
 python-dotenv
-pip>=24.0
+pip==24.3.1
+
