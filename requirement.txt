@@ -8,4 +8,6 @@ langchain-groq
 openpyxl
 python-dotenv
 pip==24.3.1
+python-dotenv
+dotenv
 
